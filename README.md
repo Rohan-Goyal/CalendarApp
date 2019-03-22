@@ -5,6 +5,9 @@ The app is designed to let you keep track of events and schedule periodic sessio
 The way the app works is quite intuitive. Download the file appropriate to your OS, run it like you would any similar file (or via terminal if you want to see any print/debug statements I forgot to delete). The events view can be changed by clicking either 'today' or 'next 7 days' to show the upcoming sessions for that. Scheduling an exam or project automatically schedules sessions as well; this might slow down a bit when the app tries to connect to the network for cronofy, but in general it works quite well (at least when I tested it). Scheduling an event of any kind writes it both to memory and an external calendar (at least it should) and notifications are triggered to. However, they only work if you keep the app running in the background, so if you close it halfway through it might simply fail. This bug needs to be improved, I know, but it requires implementing a lot of architecture which I am extremely unfamiliar with, and probably worth an entire project in itself.
 The app should work in all time zones (since it uses UTC and Pytz), but since testing only took place in GST/UAE, impossible to say for sure. If there are any major errors, please file a bug report.
 
+## Notes/Warnings
+The linux and windows executables have been taken down due to compatibility issues. My testing was done on Windows 7, as was the freezing/packaging. However, I have been informed by friends who tested the app that it does not run on windows 10 for some reason, and thus development for windows will have to wait. Sorry!
+
 ## Instructions
 
 ### Initialisation
@@ -24,6 +27,7 @@ The packages required in your environment are:
     3. Notify2 (only for Linux users)
     4. Applescript (Only for Mac users)
     5. Win10toast (Only for Windows users)
+    6. and obviously the stdlib 
 
 ### General
 
