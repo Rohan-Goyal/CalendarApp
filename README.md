@@ -6,7 +6,8 @@ The way the app works is quite intuitive. Download the file appropriate to your 
 The app should work in all time zones (since it uses UTC and Pytz), but since testing only took place in GST/UAE, impossible to say for sure. If there are any major errors, please file a bug report.
 
 ## Notes/Warnings
-The linux and windows executables have been taken down due to compatibility issues. My testing was done on Windows 7, as was the freezing/packaging. However, I have been informed by friends who tested the app that it does not run on windows 10 for some reason, and thus development for windows will have to wait. Sorry!
+The windows executable has been taken down due to compatibility issues. My testing was done on Windows 7, as was the freezing/packaging. However, I have been informed by friends who tested the app that it does not run on windows 10 for some reason, and thus development for windows will have to wait. Sorry! 
+In the meantime, feel free to download one of the many free and open source GNU/Linux distributions on your machine and use the executable on that (Mint or Ubuntu are my favourites, and also the ones this app was optimised for).
 
 ## Instructions
 
